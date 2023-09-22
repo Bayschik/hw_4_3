@@ -17,7 +17,7 @@
     <TextView
         android:id="@+id/country_name"
         android:text="Kyrgyzstan"
-        android:textSize="24sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/img_country"
         app:layout_constraintStart_toStartOf="parent"

@@ -52,10 +52,10 @@ public class ContinentFragment extends Fragment implements onClick {
     @Override
     public void onClick(int position) {
         Bundle bundle = new Bundle();
-        bundle.putString("key", String.valueOf(position));
+        bundle.putInt("key", position);
 
         CountryFragment countryFragment = new CountryFragment();
         countryFragment.setArguments(bundle);
-        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, countryFragment).commit();
+        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, countryFragment).addToBackStack(null).commit();
     }
 }

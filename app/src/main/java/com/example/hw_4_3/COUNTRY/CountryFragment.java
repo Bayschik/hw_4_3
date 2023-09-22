@@ -63,7 +63,7 @@ public class CountryFragment extends Fragment {
     }
 
     private void loadAfrica() {
-        coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/2560px-Flag_of_Morocco.svg.png",",Morocco"));
+        coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/2560px-Flag_of_Morocco.svg.png","Morocco"));
         coutnryModelArrayList.add(new CountryModel("https://img.freepik.com/free-vector/illustration-south-africa-flag_53876-27118.jpg","South Africa"));
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1280px-Flag_of_Nigeria.svg.png","Nigeria"));
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/4/40/Flag_of_Ghana.png","Ghana"));
@@ -95,7 +95,7 @@ public class CountryFragment extends Fragment {
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/2560px-Flag_of_Colombia.svg.png","Columbia"));
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_Chile.png","Chili"));
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/2560px-Flag_of_Ecuador.svg.png","Ecuador"));
-        coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/2560px-Flag_of_Ecuador.svg.png","Venezuela"));
+        coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/4/48/Venezuela_flag.png","Venezuela"));
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/f/f1/Peru_flag_with_coat_of_arms_300.PNG","Peru"));
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/2560px-Flag_of_Uruguay.svg.png","Uruguay"));
         coutnryModelArrayList.add(new CountryModel("https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_%28state%29.svg/2560px-Flag_of_Bolivia_%28state%29.svg.png","Bolivia"));
